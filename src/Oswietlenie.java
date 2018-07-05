@@ -1,6 +1,6 @@
 public class Oswietlenie {
     public static void main(String[] args) {
-        Lampa lampa1 = new Lampa ();
+        Lampa lampa1 = new Lampa ("nocna", 30, "czerwony");
         lampa1.rodzaj = "nocna";
         lampa1.moc = 30;
         lampa1.kolor = "czerwony";
@@ -11,7 +11,7 @@ public class Oswietlenie {
         System.out.println(lampa1.kolor);
         System.out.println();
 
-        Lampa lampa2 = new Lampa ();
+        Lampa lampa2 = new Lampa ("kinkiet", 15, "zimny");
         lampa2.rodzaj = "kinkiet";
         lampa2.kolor = "zimny";
         lampa2.moc = 15;
